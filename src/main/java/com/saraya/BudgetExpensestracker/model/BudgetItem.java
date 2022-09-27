@@ -8,7 +8,9 @@ import java.util.Set;
 
 
 @NoArgsConstructor
+@AllArgsConstructor
 @Data
+@Builder
 @Entity
 @Table(name = "budgetItem")
 public class BudgetItem {
